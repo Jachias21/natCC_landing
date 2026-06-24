@@ -65,22 +65,18 @@ export default function Home() {
       <section className="bg-cream-50 border-t border-border-soft">
         <div className="max-w-6xl mx-auto px-6 py-20">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {(["servicios", "enfoque", "sobreMi"] as const).map((key, i) => (
+            {(["servicios", "enfoque", "sobreMi"] as const).map((key) => (
               <Link
                 key={key}
                 href={key === "sobreMi" ? "/sobre-mi" : `/${key}`}
-                className={`group flex flex-col justify-between p-8 rounded-2xl border border-border-soft bg-cream-100 hover:bg-cream-50 transition-colors ${
-                  i === 0 ? "md:col-span-2" : ""
-                }`}
+                className="group flex flex-col justify-between p-8 rounded-2xl border border-border-soft bg-cream-100 hover:bg-cream-50 hover:shadow-md hover:-translate-y-1 transition-all duration-200"
               >
                 <div>
                   <p className="text-xs font-sans font-medium uppercase tracking-widest text-terracotta-500 mb-4">
                     {t(`cards.${key}.eyebrow`)}
                   </p>
                   <h2
-                    className={`font-serif text-ink-900 leading-snug ${
-                      i === 0 ? "text-3xl md:text-4xl" : "text-xl md:text-2xl"
-                    }`}
+                    className="font-serif text-ink-900 leading-snug text-xl md:text-2xl"
                   >
                     {t(`cards.${key}.title`)}
                   </h2>

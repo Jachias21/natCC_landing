@@ -47,10 +47,10 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className={`${fraunces.variable} ${inter.variable}`}>
-      <body className="antialiased">
+      <body className="antialiased flex flex-col min-h-screen">
         <NextIntlClientProvider messages={messages}>
           <Navbar />
-          <main className="pt-16">{children}</main>
+          <main className="pt-16 flex-1">{children}</main>
           <Footer />
           <WhatsAppFAB />
         </NextIntlClientProvider>

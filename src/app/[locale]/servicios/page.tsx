@@ -28,9 +28,7 @@ export default function ServiciosPage() {
           {items.map((service, i) => (
             <article
               key={i}
-              className={`flex flex-col justify-between p-8 rounded-2xl border border-border-soft bg-cream-50 ${
-                i === 0 ? "md:col-span-2" : ""
-              }`}
+              className="flex flex-col justify-between p-8 rounded-2xl border border-border-soft bg-cream-50 hover:shadow-md hover:-translate-y-1 transition-all duration-200"
             >
               <div>
                 <h2 className="font-serif text-ink-900 text-2xl mb-3">{service.title}</h2>
