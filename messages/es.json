@@ -1,0 +1,150 @@
+{
+  "nav": {
+    "enfoque": "Enfoque",
+    "servicios": "Servicios",
+    "sobreMi": "Sobre mí",
+    "opiniones": "Opiniones",
+    "faq": "FAQ",
+    "contacto": "Contacto",
+    "reservar": "Reservar cita"
+  },
+  "home": {
+    "eyebrow": "Psicóloga Sanitaria · Terapeuta de Pareja · Sexóloga Clínica",
+    "h1Line1": "Soy",
+    "h1Italic": "Natalia,",
+    "h1Line2": "tu psicóloga.",
+    "subtitle": "Un espacio seguro para escucharte, comprenderte y avanzar. Terapia individual, de pareja y sexología clínica en Barcelona, Granollers y online.",
+    "ctaPrimary": "Concertar sesión",
+    "ctaSecondary": "Conocer mi enfoque",
+    "pill1": "Online y presencial",
+    "pill2": "Barcelona · Granollers",
+    "pill3": "ES · CAT · EN",
+    "cards": {
+      "servicios": { "eyebrow": "Servicios", "title": "Cómo puedo acompañarte" },
+      "enfoque": { "eyebrow": "Enfoque", "title": "Base cognitivo-conductual, mirada integradora." },
+      "sobreMi": { "eyebrow": "Sobre mí", "title": "Acompañarte con rigor y humanidad." },
+      "verMas": "Ver más"
+    }
+  },
+  "servicios": {
+    "meta": {
+      "title": "Servicios — Natalia Chias Coughlan",
+      "description": "Terapia individual (50€), terapia de pareja (65€) y sexología clínica (50€). Sesiones de 1 hora, presencial en Barcelona y Granollers u online."
+    },
+    "eyebrow": "Servicios",
+    "h1": "Cómo puedo acompañarte",
+    "subtitle": "Sesiones de 1 hora · Online o presencial · ES · CAT · EN",
+    "priceLabel": "Tarifa por sesión",
+    "cta": "Reservar",
+    "items": [
+      {
+        "title": "Terapia individual",
+        "description": "Acompañamiento en ansiedad, depresión, autoestima, regulación emocional, duelo y desarrollo personal.",
+        "tags": ["Ansiedad", "Autoestima", "Depresión", "Duelo"],
+        "price": "50€"
+      },
+      {
+        "title": "Terapia de pareja",
+        "description": "Comunicación, conflicto, crisis, vínculos afectivos y proyectos de vida compartidos.",
+        "tags": ["Comunicación", "Vínculo", "Crisis"],
+        "price": "65€"
+      },
+      {
+        "title": "Sexología clínica",
+        "description": "Deseo, disfunciones sexuales, educación sexual y bienestar afectivo-sexual desde una mirada respetuosa e integradora.",
+        "tags": ["Deseo", "Disfunciones", "Educación"],
+        "price": "50€"
+      }
+    ]
+  },
+  "enfoque": {
+    "meta": {
+      "title": "Enfoque — Natalia Chias Coughlan",
+      "description": "Terapia cognitivo-conductual con mirada integradora."
+    },
+    "eyebrow": "El enfoque",
+    "h1Part1": "Base cognitivo-conductual,",
+    "h1Italic": "mirada integradora.",
+    "body": "Trabajo desde la terapia cognitivo-conductual, incorporando herramientas de tercera generación y enfoques humanistas según las necesidades de cada persona. No hay un método único — hay una relación terapéutica construida a medida.",
+    "ctaContacto": "Contacto",
+    "ctaSobreMi": "Sobre mí",
+    "values": [
+      { "label": "Aceptación", "description": "Recibirte sin juicio, tal y como eres hoy." },
+      { "label": "Incondicionalidad", "description": "Un vínculo terapéutico estable y honesto." },
+      { "label": "Cercanía", "description": "Calidez humana dentro del rigor clínico." },
+      { "label": "Curiosidad", "description": "Explorar juntas tu historia para entenderla." }
+    ]
+  },
+  "sobreMi": {
+    "meta": {
+      "title": "Sobre mí — Natalia Chias Coughlan",
+      "description": "Psicóloga sanitaria, terapeuta de pareja y sexóloga clínica."
+    },
+    "eyebrow": "Sobre mí",
+    "h1Part1": "Acompañarte con",
+    "h1Italic": "rigor y humanidad.",
+    "body1": "Soy psicóloga sanitaria, terapeuta de pareja y sexóloga clínica. Mi formación se enmarca dentro de la tradición cognitivo-conductual, con una mirada integradora que me permite adaptar el proceso terapéutico a cada persona.",
+    "body2": "Atiendo de manera presencial en Barcelona y Granollers, y también online para quienes prefieren la comodidad de su propio espacio.",
+    "location": "Consulta en Barcelona · Granollers · Online",
+    "languages": "Atención en ES · CAT · EN",
+    "cta": "Contacto"
+  },
+  "opiniones": {
+    "meta": {
+      "title": "Opiniones — Natalia Chias Coughlan",
+      "description": "Lo que cuentan quienes han pasado por consulta."
+    },
+    "eyebrow": "Opiniones",
+    "h1Part1": "Lo que cuentan quienes han",
+    "h1Italic": "pasado por consulta.",
+    "items": [
+      { "quote": "Me sentí muy acompañada desde el primer día. Un espacio seguro de verdad.", "author": "Paciente individual" },
+      { "quote": "Gran profesional, cercana y muy humana. Su escucha marca la diferencia.", "author": "Paciente individual" },
+      { "quote": "Nos ayudó muchísimo como pareja a entendernos y reconstruir el vínculo.", "author": "Terapia de pareja" }
+    ]
+  },
+  "faq": {
+    "meta": {
+      "title": "Preguntas frecuentes — Natalia Chias Coughlan",
+      "description": "Dudas habituales sobre el proceso terapéutico."
+    },
+    "eyebrow": "Dudas frecuentes",
+    "h1": "Preguntas habituales",
+    "items": [
+      { "q": "¿Cuánto dura una sesión?", "a": "Las sesiones tienen una duración de 1 hora." },
+      { "q": "¿Las sesiones son online o presenciales?", "a": "Ambas modalidades. Atiendo presencialmente en Barcelona y Granollers, y también online." },
+      { "q": "¿En qué idiomas atiendes?", "a": "Atiendo en español, catalán e inglés." },
+      { "q": "¿Cómo empiezo el proceso?", "a": "Puedes reservar tu primera cita online desde la web, o escribirme por WhatsApp o email." },
+      { "q": "¿A qué se dedica la primera sesión?", "a": "Es un primer encuentro para conocernos, escuchar tu motivo de consulta y diseñar juntas el camino terapéutico." }
+    ]
+  },
+  "contacto": {
+    "meta": {
+      "title": "Contacto — Natalia Chias Coughlan",
+      "description": "Reserva tu primera sesión online, escríbeme por WhatsApp o envíame un email."
+    },
+    "eyebrow": "Contacto",
+    "h1Part1": "Empieza tu proceso",
+    "h1Italic": "hoy.",
+    "subtitle": "Reserva tu primera sesión online en menos de un minuto, o escríbeme directamente. Te responderé personalmente.",
+    "cita": { "label": "Cita online", "cta": "Reservar en mi agenda →" },
+    "email": { "label": "Email" },
+    "whatsapp": { "label": "WhatsApp" },
+    "form": {
+      "title": "Escríbeme",
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre",
+      "email": "Email",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntame en qué puedo ayudarte...",
+      "submit": "Enviar mensaje",
+      "legal": "Al enviar aceptas el tratamiento confidencial de tus datos."
+    }
+  },
+  "footer": {
+    "subtitle": "Psicóloga sanitaria · Sexóloga clínica · Barcelona · Granollers",
+    "legal": "Aviso legal",
+    "privacy": "Privacidad",
+    "copy": "© 2026 Natalia Chias Coughlan"
+  }
+}

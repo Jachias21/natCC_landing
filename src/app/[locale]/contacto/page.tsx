@@ -1,32 +1,24 @@
+import { useTranslations } from "next-intl";
 import { Calendar, Mail, MessageCircle } from "lucide-react";
 import { CONTACT } from "@/data/content";
 
-export const metadata = {
-  title: "Contacto — Natalia Chias Coughlan",
-  description:
-    "Reserva tu primera sesión online, escríbeme por WhatsApp o envíame un email.",
-};
-
 export default function ContactoPage() {
+  const t = useTranslations("contacto");
+
   return (
     <div className="bg-cream-100">
-      {/* Header */}
       <section className="max-w-6xl mx-auto px-6 pt-20 pb-12">
         <p className="text-xs font-sans font-medium uppercase tracking-widest text-terracotta-500 mb-4">
-          Contacto
+          {t("eyebrow")}
         </p>
         <h1 className="font-serif text-ink-900 text-4xl md:text-5xl leading-tight max-w-lg">
-          Empieza tu proceso <em>hoy.</em>
+          {t("h1Part1")} <em>{t("h1Italic")}</em>
         </h1>
-        <p className="font-sans text-ink-600 mt-4 text-base max-w-md">
-          Reserva tu primera sesión online en menos de un minuto, o escríbeme
-          directamente. Te responderé personalmente.
-        </p>
+        <p className="font-sans text-ink-600 mt-4 text-base max-w-md">{t("subtitle")}</p>
       </section>
 
       <section className="max-w-6xl mx-auto px-6 pb-24">
         <div className="grid md:grid-cols-2 gap-12">
-          {/* Canales de contacto */}
           <div className="space-y-4">
             <a
               href={CONTACT.calendly}
@@ -39,11 +31,9 @@ export default function ContactoPage() {
               </div>
               <div>
                 <p className="text-xs font-sans font-medium uppercase tracking-widest text-terracotta-500 mb-0.5">
-                  Cita online
+                  {t("cita.label")}
                 </p>
-                <p className="font-sans text-ink-900 font-medium">
-                  Reservar en mi agenda →
-                </p>
+                <p className="font-sans text-ink-900 font-medium">{t("cita.cta")}</p>
               </div>
             </a>
 
@@ -56,11 +46,9 @@ export default function ContactoPage() {
               </div>
               <div>
                 <p className="text-xs font-sans font-medium uppercase tracking-widest text-terracotta-500 mb-0.5">
-                  Email
+                  {t("email.label")}
                 </p>
-                <p className="font-sans text-ink-900 text-sm break-all">
-                  {CONTACT.email}
-                </p>
+                <p className="font-sans text-ink-900 text-sm break-all">{CONTACT.email}</p>
               </div>
             </a>
 
@@ -75,61 +63,56 @@ export default function ContactoPage() {
               </div>
               <div>
                 <p className="text-xs font-sans font-medium uppercase tracking-widest text-terracotta-500 mb-0.5">
-                  WhatsApp
+                  {t("whatsapp.label")}
                 </p>
-                <p className="font-sans text-ink-900 font-medium">
-                  {CONTACT.whatsappDisplay}
-                </p>
+                <p className="font-sans text-ink-900 font-medium">{CONTACT.whatsappDisplay}</p>
               </div>
             </a>
           </div>
 
-          {/* Formulario */}
           <div className="p-8 rounded-2xl border border-border-soft bg-cream-50">
-            <h2 className="font-serif text-ink-900 text-2xl mb-6">Escríbeme</h2>
+            <h2 className="font-serif text-ink-900 text-2xl mb-6">{t("form.title")}</h2>
             <form className="space-y-4">
               <div>
                 <label className="block text-xs font-sans font-medium uppercase tracking-wide text-ink-600 mb-2">
-                  Nombre
+                  {t("form.name")}
                 </label>
                 <input
                   type="text"
                   required
+                  placeholder={t("form.namePlaceholder")}
                   className="w-full bg-cream-100 border border-border-soft rounded-xl px-4 py-3 font-sans text-ink-900 text-sm placeholder:text-ink-600/40 focus:outline-none focus:border-forest-500 transition-colors"
-                  placeholder="Tu nombre"
                 />
               </div>
               <div>
                 <label className="block text-xs font-sans font-medium uppercase tracking-wide text-ink-600 mb-2">
-                  Email
+                  {t("form.email")}
                 </label>
                 <input
                   type="email"
                   required
-                  className="w-full bg-cream-100 border border-border-soft rounded-xl px-4 py-3 font-sans text-ink-900 text-sm placeholder:text-ink-600/40 focus:outline-none focus:border-forest-500 transition-colors"
                   placeholder="tu@email.com"
+                  className="w-full bg-cream-100 border border-border-soft rounded-xl px-4 py-3 font-sans text-ink-900 text-sm placeholder:text-ink-600/40 focus:outline-none focus:border-forest-500 transition-colors"
                 />
               </div>
               <div>
                 <label className="block text-xs font-sans font-medium uppercase tracking-wide text-ink-600 mb-2">
-                  Mensaje
+                  {t("form.message")}
                 </label>
                 <textarea
                   required
                   rows={4}
+                  placeholder={t("form.messagePlaceholder")}
                   className="w-full bg-cream-100 border border-border-soft rounded-xl px-4 py-3 font-sans text-ink-900 text-sm placeholder:text-ink-600/40 focus:outline-none focus:border-forest-500 transition-colors resize-none"
-                  placeholder="Cuéntame en qué puedo ayudarte..."
                 />
               </div>
               <button
                 type="submit"
                 className="w-full bg-forest-700 text-cream-50 font-sans text-sm px-6 py-3 rounded-full hover:bg-forest-900 transition-colors"
               >
-                Enviar mensaje
+                {t("form.submit")}
               </button>
-              <p className="text-xs font-sans text-ink-600/60 text-center">
-                Al enviar aceptas el tratamiento confidencial de tus datos.
-              </p>
+              <p className="text-xs font-sans text-ink-600/60 text-center">{t("form.legal")}</p>
             </form>
           </div>
         </div>

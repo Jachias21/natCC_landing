@@ -1,0 +1,150 @@
+{
+  "nav": {
+    "enfoque": "Approach",
+    "servicios": "Services",
+    "sobreMi": "About me",
+    "opiniones": "Reviews",
+    "faq": "FAQ",
+    "contacto": "Contact",
+    "reservar": "Book a session"
+  },
+  "home": {
+    "eyebrow": "Clinical Psychologist · Couples Therapist · Clinical Sexologist",
+    "h1Line1": "I'm",
+    "h1Italic": "Natalia,",
+    "h1Line2": "your psychologist.",
+    "subtitle": "A safe space to be heard, understood, and move forward. Individual therapy, couples therapy and clinical sexology in Barcelona, Granollers and online.",
+    "ctaPrimary": "Book a session",
+    "ctaSecondary": "Learn my approach",
+    "pill1": "Online & in-person",
+    "pill2": "Barcelona · Granollers",
+    "pill3": "ES · CAT · EN",
+    "cards": {
+      "servicios": { "eyebrow": "Services", "title": "How I can support you" },
+      "enfoque": { "eyebrow": "Approach", "title": "Cognitive-behavioural base, integrative perspective." },
+      "sobreMi": { "eyebrow": "About me", "title": "Supporting you with rigour and humanity." },
+      "verMas": "Learn more"
+    }
+  },
+  "servicios": {
+    "meta": {
+      "title": "Services — Natalia Chias Coughlan",
+      "description": "Individual therapy (€50), couples therapy (€65) and clinical sexology (€50). 1-hour sessions, in-person in Barcelona and Granollers or online."
+    },
+    "eyebrow": "Services",
+    "h1": "How I can support you",
+    "subtitle": "1-hour sessions · Online or in-person · ES · CAT · EN",
+    "priceLabel": "Per session",
+    "cta": "Book",
+    "items": [
+      {
+        "title": "Individual therapy",
+        "description": "Support with anxiety, depression, self-esteem, emotional regulation, grief and personal development.",
+        "tags": ["Anxiety", "Self-esteem", "Depression", "Grief"],
+        "price": "€50"
+      },
+      {
+        "title": "Couples therapy",
+        "description": "Communication, conflict, crisis, emotional bonds and shared life projects.",
+        "tags": ["Communication", "Bond", "Crisis"],
+        "price": "€65"
+      },
+      {
+        "title": "Clinical sexology",
+        "description": "Desire, sexual dysfunctions, sexual education and affective-sexual wellbeing from a respectful and integrative perspective.",
+        "tags": ["Desire", "Dysfunctions", "Education"],
+        "price": "€50"
+      }
+    ]
+  },
+  "enfoque": {
+    "meta": {
+      "title": "Approach — Natalia Chias Coughlan",
+      "description": "Cognitive-behavioural therapy with an integrative perspective."
+    },
+    "eyebrow": "The approach",
+    "h1Part1": "Cognitive-behavioural base,",
+    "h1Italic": "integrative perspective.",
+    "body": "I work from a cognitive-behavioural framework, incorporating third-wave tools and humanistic approaches according to each person's needs. There is no single method — there is a therapeutic relationship built around you.",
+    "ctaContacto": "Contact",
+    "ctaSobreMi": "About me",
+    "values": [
+      { "label": "Acceptance", "description": "Welcoming you without judgement, exactly as you are today." },
+      { "label": "Unconditionality", "description": "A stable and honest therapeutic bond." },
+      { "label": "Warmth", "description": "Human closeness within clinical rigour." },
+      { "label": "Curiosity", "description": "Exploring your story together to understand it." }
+    ]
+  },
+  "sobreMi": {
+    "meta": {
+      "title": "About me — Natalia Chias Coughlan",
+      "description": "Clinical psychologist, couples therapist and clinical sexologist."
+    },
+    "eyebrow": "About me",
+    "h1Part1": "Supporting you with",
+    "h1Italic": "rigour and humanity.",
+    "body1": "I am a clinical psychologist, couples therapist and clinical sexologist. My training is rooted in the cognitive-behavioural tradition, with an integrative perspective that allows me to adapt the therapeutic process to each individual.",
+    "body2": "I see clients in person in Barcelona and Granollers, and also online for those who prefer the comfort of their own space.",
+    "location": "Practice in Barcelona · Granollers · Online",
+    "languages": "Sessions in ES · CAT · EN",
+    "cta": "Contact"
+  },
+  "opiniones": {
+    "meta": {
+      "title": "Reviews — Natalia Chias Coughlan",
+      "description": "What people who have been to therapy say."
+    },
+    "eyebrow": "Reviews",
+    "h1Part1": "What people say after",
+    "h1Italic": "coming to therapy.",
+    "items": [
+      { "quote": "I felt truly supported from the very first day. A genuinely safe space.", "author": "Individual client" },
+      { "quote": "A great professional — warm and deeply human. The way she listens makes all the difference.", "author": "Individual client" },
+      { "quote": "She helped us enormously as a couple to understand each other and rebuild our bond.", "author": "Couples therapy" }
+    ]
+  },
+  "faq": {
+    "meta": {
+      "title": "FAQ — Natalia Chias Coughlan",
+      "description": "Common questions about the therapy process."
+    },
+    "eyebrow": "Common questions",
+    "h1": "Frequently asked questions",
+    "items": [
+      { "q": "How long is a session?", "a": "Sessions last 1 hour." },
+      { "q": "Are sessions online or in-person?", "a": "Both. I see clients in person in Barcelona and Granollers, and also online." },
+      { "q": "What languages do you work in?", "a": "I work in Spanish, Catalan and English." },
+      { "q": "How do I get started?", "a": "You can book your first session online through the website, or reach out via WhatsApp or email." },
+      { "q": "What happens in the first session?", "a": "It's a first meeting to get to know each other, hear what brings you to therapy, and plan our work together." }
+    ]
+  },
+  "contacto": {
+    "meta": {
+      "title": "Contact — Natalia Chias Coughlan",
+      "description": "Book your first session online, message me on WhatsApp or send an email."
+    },
+    "eyebrow": "Contact",
+    "h1Part1": "Start your process",
+    "h1Italic": "today.",
+    "subtitle": "Book your first session online in under a minute, or reach out directly. I will reply personally.",
+    "cita": { "label": "Online booking", "cta": "Book in my calendar →" },
+    "email": { "label": "Email" },
+    "whatsapp": { "label": "WhatsApp" },
+    "form": {
+      "title": "Write to me",
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "message": "Message",
+      "messagePlaceholder": "Tell me how I can help...",
+      "submit": "Send message",
+      "legal": "By submitting you agree to the confidential handling of your data."
+    }
+  },
+  "footer": {
+    "subtitle": "Clinical psychologist · Clinical sexologist · Barcelona · Granollers",
+    "legal": "Legal notice",
+    "privacy": "Privacy",
+    "copy": "© 2026 Natalia Chias Coughlan"
+  }
+}

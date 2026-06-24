@@ -161,6 +161,30 @@ const fadeUp = {
 
 ---
 
+## 8bis. Anexo — feedback sobre la primera maqueta (ronda 2)
+
+La primera implementación aplicó bien los colores y la tipografía, pero sigue leyéndose "generada con IA" por tres motivos estructurales, no de estilo:
+
+### A. Un único componente de tarjeta reutilizado para todo
+Enfoque, Servicios, Sobre mí, Opiniones y Contacto usan la misma receta visual (borde fino + radio + label naranja + título serif + body + línea + footer). Cuando un solo patrón de componente se repite para contenidos distintos, se lee como "instancias de un sistema" en vez de "jerarquía de diseño" — es la firma más reconocible de un generador de IA.
+
+**Fix obligatorio en al menos 2-3 secciones:**
+
+- **Opiniones:** eliminar las 3 tarjetas iguales. Estructura nueva: una cita destacada en serif italic grande (28px) sin borde ni fondo de tarjeta, separada por una línea superior fina (`border-top: 1px solid`). Debajo, las otras 2 citas en grid de 2 columnas, tamaño menor (17px), también sin tarjeta — solo texto + línea divisoria. Jerarquía por tamaño tipográfico, no por repetición de cajas.
+
+- **Enfoque (los 4 valores: Aceptación, Incondicionalidad, Cercanía, Curiosidad):** eliminar el grid 2x2 de cajas. Sustituir por una lista numerada (01-04) en filas horizontales separadas por `border-top: 1px solid`, sin fondo de tarjeta: número en terracota a la izquierda, título serif, descripción alineada a la derecha en gris. Esto también resuelve el hueco vacío al final de la sección (ver punto C).
+
+- Servicios, Sobre mí y Contacto SÍ pueden conservar tarjeta (son objetos delimitados — precio, formulario — donde la tarjeta tiene sentido funcional). El objetivo no es eliminar tarjetas en todas partes, sino que no sea la ÚNICA gramática visual del sitio.
+
+### B. Placeholders de foto rotulados ("Foto de Natalia pendiente", "Consulta Barcelona")
+Una caja vacía con texto explicando que falta contenido es peor que no tener foto — comunica "demo sin terminar" más que cualquier otra cosa en el sitio. Mientras no haya material real:
+- Quitar el contenedor de imagen y dejar que el texto ocupe el ancho completo de la columna, o
+- Sustituir por un bloque de color sólido de marca (forest-700 o terracotta-100) con el monograma/símbolo de marca centrado, sin ningún texto explicativo encima.
+- Nunca dejar visible al usuario final la palabra "pendiente".
+
+### C. Espacio vacío grande entre el contenido y el footer
+Visible en Enfoque, Sobre mí, FAQ, Opiniones y Contacto — probablemente un `min-height` fijo en el contenedor de página que no se ajusta a secciones cortas. Quitar alturas mínimas forzadas; el footer debe seguir inmediatamente al último bloque de contenido real.
+
 ## 8. Checklist para el agente
 
 - [ ] Tokens de color en `@theme` (sección 2)
@@ -171,3 +195,7 @@ const fadeUp = {
 - [ ] Overlay del hero uniforme (actualmente desigual, hay zonas con poco contraste de texto)
 - [ ] Iconos Lucide outline en CTAs de contacto
 - [ ] (Opcional pero recomendado) símbolo de marca mínimo para favicon + acentos
+- [ ] Rediseñar Opiniones sin tarjetas (sección 8bis-A)
+- [ ] Rediseñar Enfoque (los 4 valores) como lista numerada sin tarjetas (sección 8bis-A)
+- [ ] Quitar placeholders de foto rotulados, sustituir por bloque de color de marca sin texto (sección 8bis-B)
+- [ ] Eliminar min-height forzados que dejan hueco vacío antes del footer (sección 8bis-C)
